@@ -33,14 +33,14 @@ class Main extends React.Component {
             <img src={pic01} alt="" />
           </span>
             <ul>
-              <h4>
+              <h3>
                 Essay, &nbsp; 
                 <a href="http://www.witchcraftmag.com/" target="-blank">"Everyday Witchcraft"</a> Witchcraft Magazine,  Print. Publication date, 4/2018.
-              </h4>
-              <h4>
+              </h3>
+              <h3>
                 Essay, &nbsp; 
                 <a href="https://www.themanifeststation.net/2017/06/11/the-chair/" target="-blank">"The Chair"</a> Manifest-Station, Publication date, June 11, 2017.
-              </h4>
+              </h3>
             </ul>
           {close}
         </article>
@@ -53,13 +53,13 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Work History</h2>
-          <h3><em>as it pertains to writing only</em></h3>
+          <h2><em>as it pertains to writing only</em></h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
             <ul>
-              <h4>Portland State University, Instructor, September 2014—present.</h4>
-              <h4>Contributing Editor, <a href="https://www.nailedmagazine.com/" target="-blank">NAILED Magazine,</a> 2014—Present.</h4>
+              <h3>Portland State University, Instructor, September 2014—present.</h3>
+              <h3>Contributing Editor, <a href="https://www.nailedmagazine.com/" target="-blank">NAILED Magazine,</a> 2014—Present.</h3>
             </ul>
           {close}
         </article>
@@ -85,6 +85,11 @@ class Main extends React.Component {
               <ul>
                 <h3>Founder and leader at Symposium Writer’s Group, 2016.</h3>
                 <h3>Participant at<em> Burnt Tongue, Grief Rites, and Legion Reader’s Group.</em></h3>
+              </ul>
+            <h2 className="major">Formal Education</h2>
+              <ul>
+                <h3>MFA, Creative Nonfiction—Antioch University, Los Angeles.</h3>
+                <h3>BS Liberal Studies, Minor in Writing—Portland State University.</h3>
               </ul>
           {close}
         </article>
@@ -122,28 +127,17 @@ class Main extends React.Component {
           <ul className="icons">
             <li>
               <a
-                href="https://twitter.com/HuntaroSan"
+                href="https://twitter.com/mehkiki"
                 className="icon fa-twitter"
+                target="-blank"
               >
                 <span className="label">Twitter</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
-                <span className="label">Facebook</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
+              <a href="https://www.instagram.com/mehkiki/" className="icon fa-instagram"
+              target="-blank">
                 <span className="label">Instagram</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
-                className="icon fa-github"
-              >
-                <span className="label">GitHub</span>
               </a>
             </li>
           </ul>
