@@ -59,13 +59,15 @@
   .logo {
     width: 5.5rem;
     height: 5.5rem;
+    vertical-align: middle;
     line-height: 5.5rem;
     border: solid _size(border-width) _palette(border);
     border-radius: 100%;
 
-    .icon {
+    i {
       &:before {
         font-size: 2rem;
+        position:relative; top: 7px;
       }
     }
   }
@@ -123,6 +125,7 @@
 
         button {
           display: block;
+          width: 10.5rem;
           min-width: 7.5rem;
           height: 2.75rem;
           line-height: 2.75rem;

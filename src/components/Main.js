@@ -1,8 +1,7 @@
-import PropTypes from 'prop-types'
-import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+import PropTypes from 'prop-types';
+import React from 'react';
+import nailed3 from '../images/nailed3.png';
+import nailed4 from '../images/nailed4.png';
 
 class Main extends React.Component {
   render() {
@@ -30,22 +29,72 @@ class Main extends React.Component {
         >
           <h2 className="major">Publications</h2>
           <span className="image main">
-            <img src={pic01} alt="" />
+            <img src={nailed3} alt=""
+              style={{ filter: 'blur(2.5px)'}}
+            />
           </span>
             <ul>
               <h3>
                 Essay, &nbsp; 
-                <a href="http://www.witchcraftmag.com/" target="-blank">"Everyday Witchcraft"</a> Witchcraft Magazine,  Print. Publication date, 4/2018.
+                <a href="http://www.witchcraftmag.com/" target="-blank">"Everyday Witchcraft"</a> Witchcraft Magazine,  Print. Published April 2018.
               </h3>
               <h3>
                 Essay, &nbsp; 
-                <a href="https://www.themanifeststation.net/2017/06/11/the-chair/" target="-blank">"The Chair"</a> Manifest-Station, Publication date, June 11, 2017.
+                <a href="https://www.themanifeststation.net/2017/06/11/the-chair/" target="-blank">"The Chair"</a> Manifest-Station, Published June 11, 2017.
+              </h3>
+              <h3>
+                Short Story, &nbsp; 
+                <a href="https://www.hobartpulp.com/web_features/lie-game" target="-blank">"Lie Game"</a> Hobart, Published February 2017.
+              </h3>
+              <h3>
+                Short Story, &nbsp; 
+                <a href="http://www.forestavenuepress.com/catalog/city-of-weird/" target="-blank">"A Heft of Ashes"</a> Portland Weird Anthology, Published October 2016.
+              </h3>
+              <h3>
+                Short Story, &nbsp; 
+                <a href="https://www.nailedmagazine.com/features/economy-kirsten-larson" target="-blank">"In This Economy"</a> NAILED Magazine, Published June 2016.
+              </h3>
+              <h3>
+                Short Story, &nbsp; 
+                <a href="http://kellenlarson.com/uploads/8/3/7/8/83785532/whitetail.pdf" target="-blank">"Whitetail"</a> Perceptions Literary Magazine, Published June 2016. <em>reprinted here</em>
+              </h3>
+              <h3>
+                Short Story, &nbsp; 
+                <a href="http://kellenlarson.com/uploads/8/3/7/8/83785532/crossing_the_mckenzie.pdf" target="-blank">"Crossing the McKenzie"</a> Perceptions Literary Magazine, Published June 2016. <em>reprinted here</em>
+              </h3>
+              <h3>
+                Interview: &nbsp; 
+                <a href="https://lunchticket.org/lidia-yuknavitch-author/" target="-blank">"With Lidia Yuknavitch"</a> Lunch Ticket, Published December 2015.
+              </h3>
+              <h3>
+                Short Story, &nbsp; 
+                <a href="https://www.nailedmagazine.com/features/blue-in-green-by-kirsten-larson" target="-blank">"Blue in Green"</a> NAILED Magazine, Published April 2015.
+              </h3>
+              <h3>
+                Open Letter, &nbsp; 
+                <a href="https://www.nailedmagazine.com/features/open-letter-id-like-to-apologize-to-a-few-people-by-kirsten-larson" target="-blank">"I'd Like to Apologize to a Few People"</a> NAILED Magazine, Published June 2014.
+              </h3>
+              <h3>
+                Short Story, &nbsp; 
+                <a href="https://www.huffpost.com/entry/wanting-him-to-want-me-on_b_5560651" target="-blank">"Wanting Him to Want Me: On Being Raised Without My Father"</a> Huffington Post, Published July 2014.
+              </h3>
+              <h3>
+                Short Story, &nbsp; 
+                <a href="https://www.huffpost.com/entry/why-we-reach-for-guns_b_5508314" target="-blank">"Why We Reach for Guns"</a> Huffington Post, Published June 2014.
+              </h3>
+              <h3>
+                Essay, &nbsp; 
+                <a href="https://www.themanifeststation.net/2014/06/17/trigger-finger-an-essay-on-gun-control/" target="-blank">"Trigger Finger: An Essay on Gun Control."</a> Manifest-Station, Published June 2014.
+              </h3>
+              <h3>
+                Essay, &nbsp; 
+                "One of the Warriors", winner of essay contest—Women of Courage, 2000.
               </h3>
             </ul>
           {close}
         </article>
-
-        <article
+            {/* Work section disabled at client's request for now */}
+        {/* <article
           id="work"
           className={`${this.props.article === 'work' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
@@ -62,7 +111,7 @@ class Main extends React.Component {
               <h3>Contributing Editor, <a href="https://www.nailedmagazine.com/" target="-blank">NAILED Magazine,</a> 2014—Present.</h3>
             </ul>
           {close}
-        </article>
+        </article> */}
 
         <article
           id="about"
@@ -73,7 +122,9 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img src={nailed4} alt=""
+              style={{ filter: 'blur(2.5px)'}}
+            />
           </span>
             <h2 className="major">Writing Awards</h2>
               <ul>
@@ -93,8 +144,8 @@ class Main extends React.Component {
               </ul>
           {close}
         </article>
-
-        <article
+            {/* Contact section disabled at client's request for now */}
+        {/* <article
           id="contact"
           className={`${this.props.article === 'contact' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
@@ -142,7 +193,7 @@ class Main extends React.Component {
             </li>
           </ul>
           {close}
-        </article>
+        </article> */}
       </div>
     )
   }

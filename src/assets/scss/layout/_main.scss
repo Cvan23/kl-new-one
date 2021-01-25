@@ -13,6 +13,11 @@
 		z-index: 3;
 		display: none;
 
+		img {
+			filter: blur(50%);
+			-webkit-filter: blur(50%);
+		}
+
 		article {
 			@include vendor('transform', 'translateY(0.25rem)');
 			@include vendor('transition', (
@@ -26,6 +31,8 @@
 			background-color: transparentize(_palette(bg), 0.15);
 			border-radius: _size(border-radius);
 			opacity: 0;
+
+			
 
 			&.timeout {
 				display: none;

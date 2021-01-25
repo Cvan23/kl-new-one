@@ -20,10 +20,11 @@ const Header = props => (
               props.onOpenArticle('intro')
             }}
           >
-            Publications
+            <strong>Publications</strong>
           </button>
         </li>
-        <li>
+            {/* Work section disabled at client's request for now */}
+        {/* <li>
           <button
             onClick={() => {
               props.onOpenArticle('work')
@@ -31,17 +32,18 @@ const Header = props => (
           >
             Work
           </button>
-        </li>
+        </li> */}
         <li>
           <button
             onClick={() => {
               props.onOpenArticle('about')
             }}
           >
-            About
+            <strong>About</strong>
           </button>
         </li>
-        <li>
+            {/* Contact section disabled at client's request for now */}
+        {/* <li>
           <button
             onClick={() => {
               props.onOpenArticle('contact')
@@ -49,7 +51,7 @@ const Header = props => (
           >
             Contact
           </button>
-        </li>
+        </li> */}
       </ul>
     </nav>
   </header>
