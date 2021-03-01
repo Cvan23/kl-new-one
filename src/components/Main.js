@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import nailed3 from '../images/nailed3.png';
-import nailed4 from '../images/nailed4.png';
+// import nailed3 from '../images/nailed3.png';
+// import nailed4 from '../images/nailed4.png';
 
 class Main extends React.Component {
   render() {
@@ -29,9 +29,9 @@ class Main extends React.Component {
         >
           <h2 className="major">Publications</h2>
           <span className="image main">
-            <img src={nailed3} alt=""
+            {/* <img src={nailed3} alt=""
               style={{ filter: 'blur(2.5px)'}}
-            />
+            /> */}
           </span>
             <ul>
               <h3>
@@ -122,9 +122,9 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <span className="image main">
-            <img src={nailed4} alt=""
+            {/* <img src={nailed4} alt=""
               style={{ filter: 'blur(2.5px)'}}
-            />
+            /> */}
           </span>
             <h2 className="major">Writing Awards</h2>
               <ul>
